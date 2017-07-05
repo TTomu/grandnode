@@ -942,6 +942,7 @@ namespace Grand.Admin.Controllers
                 return RedirectToAction("Edit", "Product", new { id = product.Id });
 
             //not found
+            ErrorNotification(_localizationService.GetResource("Admin.Catalog.Products.List.notfoundsku"));
             return List();
         }
 
