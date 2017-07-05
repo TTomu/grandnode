@@ -16768,4 +16768,7 @@
   <LocaleResource Name="UpgradeSystem.Message2">
     <Value>After upgrade, please restart application.</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.List.notfoundsku">
+    <Value>Product with this sku not found.</Value>
+  </LocaleResource>
 </Language>
